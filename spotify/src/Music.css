@@ -1,0 +1,51 @@
+/* .main_music_div
+{
+    height: 400px;
+} */
+.main_music_div
+{
+    background:  rgb(31 30 30);
+background: linear-gradient(0deg,  rgb(20, 20, 20) 30%,  rgb(42, 41, 41)75%, rgb(31 30 30) 100%);
+/*                                     btm                          mid                  top */
+}
+
+.all_mausic_container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ist
+{
+   width: 200px;
+  height: 255px;
+  background-color:#1b1a1a;
+ text-align: -webkit-center;
+  padding-top: 20px;
+  border-radius: 8px;
+}
+.ist:hover
+{
+  background-color:#2c2b2b;
+  transition: 0.5s;
+
+}
+.ist img
+{
+    width: 161px;
+    height: 167px;
+    border-radius: 8px;
+}
+.all_text_info_i
+{
+  width: 161px;
+  height: 72px;
+  text-align: justify;
+}
+
+.ist p
+{
+    color: rgb(194, 186, 186);
+    font-size: 13px;
+    text-align: left;
+    font-weight: 700;
+}
